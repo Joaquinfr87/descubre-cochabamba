@@ -2,7 +2,7 @@
 
 
 ## **1. Logotipo**
-![Logo de Descubre Cochabamba](public/logo.png)
+![Logo de Descubre Cochabamba](../public/logo.png)
 **Concepto:**
 
 * Representa el **corazón de Bolivia** y la diversidad de Cochabamba.

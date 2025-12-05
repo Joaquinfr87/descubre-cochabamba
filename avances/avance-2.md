@@ -58,13 +58,12 @@ Inspirada en la **naturaleza y cultura de Cochabamba**:
 
 | Color | Muestra | Código HEX | Uso sugerido |
 | :--- | :--- | :--- | :--- |
-| **Verde Andino** | <span style="background-color:#2E7D32; color:white; padding: 4px 10px; border-radius: 3px;">**Muestra**</span> | `#2E7D32` | Botones principales, íconos |
-| **Amarillo Sol** | <span style="background-color:#FBC02D; color:black; padding: 4px 10px; border-radius: 3px;">**Muestra**</span> | `#FBC02D` | Destacados, resaltados, hover |
-| **Azul Cielo** | <span style="background-color:#0288D1; color:white; padding: 4px 10px; border-radius: 3px;">**Muestra**</span> | `#0288D1` | Fondos secciones, enlaces |
-| **Naranja Tierra** | <span style="background-color:#F57C00; color:white; padding: 4px 10px; border-radius: 3px;">**Muestra**</span> | `#F57C00` | Llamadas a la acción, botones secundarios |
-| **Blanco** | <span style="background-color:#FFFFFF; color:black; border: 1px solid #ccc; padding: 4px 10px; border-radius: 3px;">**Muestra**</span> | `#FFFFFF` | Fondo general y textos principales |
-| **Gris Oscuro** | <span style="background-color:#424242; color:white; padding: 4px 10px; border-radius: 3px;">**Muestra**</span> | `#424242` | Textos secundarios, footer |
-
+| **Verde Andino** | 🟢 | `#2E7D32` | Botones principales, íconos |
+| **Amarillo Sol** | 🟡 | `#FBC02D` | Destacados, resaltados, hover |
+| **Azul Cielo** | 🔵 | `#0288D1` | Fondos secciones, enlaces |
+| **Naranja Tierra** | 🟠 | `#F57C00` | Llamadas a la acción, botones secundarios |
+| **Blanco** | ⚪ | `#FFFFFF` | Fondo general y textos principales |
+| **Gris Oscuro** | ⚫ | `#424242` | Textos secundarios, footer |
 ---
 
 ## **4. Tipografía**

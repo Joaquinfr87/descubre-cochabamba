@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
@@ -9,14 +10,17 @@ import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/s
 
 const navLinks = [
   { name: "Inicio", href: "/" },
-  { name: "Destinos", href: "#destinations" },
-  { name: "Experiencias", href: "#experiences" },
-  { name: "Contacto", href: "#footer" },
+  { name: "Destinos", href: "/#destinations" },
+  { name: "Experiencias", href: "/#experiences" },
+  { name: "Clima", href: "/clima" },
+  { name: "Contacto", href: "/contact" },
 ];
 
 export default function Navbar() {
   const { scrollY } = useScroll();
   const [isScrolled, setIsScrolled] = useState(false);
+  const pathname = usePathname();
+  const isHome = pathname === "/";
 
   useMotionValueEvent(scrollY, "change", (latest) => {
     if (latest > 50) {
@@ -26,10 +30,12 @@ export default function Navbar() {
     }
   });
 
+  const isTransparent = isHome && !isScrolled;
+
   return (
     <motion.nav
       className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300 ${
-        isScrolled ? "bg-background/95 backdrop-blur-md shadow-sm" : "bg-transparent"
+        !isTransparent ? "bg-background/95 backdrop-blur-md shadow-sm border-b border-border/10" : "bg-transparent"
       }`}
       initial={{ y: -100 }}
       animate={{ y: 0 }}
@@ -39,7 +45,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <span className={`text-2xl font-bold tracking-tighter ${isScrolled ? "text-foreground" : "text-white"}`}>
+            <span className={`text-2xl font-bold tracking-tighter ${!isTransparent ? "text-foreground" : "text-white"}`}>
               Descubre<span className="text-primary">Cochabamba</span>
             </span>
           </Link>
@@ -51,13 +57,13 @@ export default function Navbar() {
                 key={link.name}
                 href={link.href}
                 className={`text-sm font-medium hover:text-primary transition-colors ${
-                  isScrolled ? "text-foreground/80" : "text-white/90"
+                  !isTransparent ? "text-foreground/80" : "text-white/90"
                 }`}
               >
                 {link.name}
               </Link>
             ))}
-            <Button variant={isScrolled ? "default" : "secondary"} size="sm" className="rounded-full px-6">
+            <Button variant={!isTransparent ? "default" : "secondary"} size="sm" className="rounded-full px-6">
               Planifica tu viaje
             </Button>
           </div>
@@ -66,7 +72,7 @@ export default function Navbar() {
           <div className="md:hidden">
             <Sheet>
               <SheetTrigger asChild>
-                <Button variant="ghost" size="icon" className={isScrolled ? "text-foreground" : "text-white"}>
+                <Button variant="ghost" size="icon" className={!isTransparent ? "text-foreground" : "text-white"}>
                   <Menu className="h-6 w-6" />
                 </Button>
               </SheetTrigger>

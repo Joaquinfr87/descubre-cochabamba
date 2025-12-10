@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "slug": "cristo-de-la-concordia",
+    "title": "Cristo de la Concordia",
+    "description": "El emblema de la ciudad. Sube en teleférico y disfruta de la vista panorámica de todo el valle cochabambino desde los pies del Cristo más alto.",
+    "imageUrl": "https://images.unsplash.com/photo-1587595431973-160d0d94add1?q=80&w=2000&auto=format&fit=crop",
+    "location": "Cercado, Cochabamba",
+    "highlights": ["Teleférico", "Mirador 360°", "Escalinatas", "Jardines"]
+  },
+  {
+    "id": "2",
+    "slug": "parque-nacional-tunari",
+    "title": "Parque Nacional Tunari",
+    "description": "La imponente cordillera que abraza la ciudad. Ideal para trekking, escalada y disfrutar de la naturaleza en su estado puro.",
+    "imageUrl": "https://images.unsplash.com/photo-1625514467577-98031d279766?q=80&w=2000&auto=format&fit=crop",
+    "location": "Cordillera del Tunari",
+    "highlights": ["Pico Tunari", "Lagunas de Altura", "Bosques de Kewiña", "Trekking"]
+  },
+  {
+    "id": "3",
+    "slug": "palacio-portales",
+    "title": "Palacio Portales",
+    "description": "Una joya arquitectónica ecléctica, legado del barón del estaño Simón I. Patiño. Sus jardines inspirados en Versalles son imperdibles.",
+    "imageUrl": "https://images.unsplash.com/photo-1568478523927-448270518d40?q=80&w=2000&auto=format&fit=crop",
+    "location": "Zona Norte, Cochabamba",
+    "highlights": ["Jardines Estilo Versalles", "Arquitectura Ecléctica", "Museo", "Historia"]
+  },
+  {
+    "id": "4",
+    "slug": "villa-tunari",
+    "title": "Villa Tunari",
+    "description": "La puerta a la Amazonía. Un paraíso tropical donde los ríos y la selva se encuentran. Actividades de aventura y contacto con fauna silvestre.",
+    "imageUrl": "https://images.unsplash.com/photo-1596423985926-72c219438a2c?q=80&w=2000&auto=format&fit=crop",
+    "location": "Chapare, Cochabamba",
+    "highlights": ["Rafting", "Parque Machía", "Pozas Naturales", "Clima Tropical"]
+  },
+  {
+    "id": "5",
+    "slug": "incallajta",
+    "title": "Incallajta",
+    "description": "La ciudadela inca más grande de Bolivia. Un sitio arqueológico monumental que testimonia la presencia del imperio en los valles.",
+    "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?q=80&w=2000&auto=format&fit=crop",
+    "location": "Pocona, Cochabamba",
+    "highlights": ["Kallanka (Gran Salón)", "Muro Perimetral", "Cascada Pajcha", "Historia Inca"]
+  },
+  {
+    "id": "6",
+    "slug": "laguna-angostura",
+    "title": "La Angostura",
+    "description": "El lugar perfecto para un fin de semana. Paseos en bote, pesca y la infaltable gastronomía local con sus platos de pescado.",
+    "imageUrl": "https://images.unsplash.com/photo-1580665360980-b2b936170d7e?q=80&w=2000&auto=format&fit=crop",
+    "location": "Valle Alto, Cochabamba",
+    "highlights": ["Paseo en Catamarán", "Comida Típica", "Deportes Acuáticos", "Relax"]
+  }
+]

@@ -11,7 +11,7 @@ export default function Hero() {
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1587595431973-160d0d94add1?q=80&w=2600&auto=format&fit=crop')", // Cristo de la Concordia
+          backgroundImage: "url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsantosepulcro.co.il%2Fupload%2Fiblock%2Fdfd%2Fdfd80cbb88a9117118e075a3d6244b2f.jpg&f=1&nofb=1&ipt=ea5028a83d9786092169de43b59b278722f327c3dfa4018b9dbefb51590b0f88')", // Cristo de la Concordia
         }}
       >
         <div className="absolute inset-0 bg-black/40" />

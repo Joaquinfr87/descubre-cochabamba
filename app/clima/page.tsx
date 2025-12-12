@@ -55,6 +55,7 @@ export default function WeatherPage() {
       try {
         const response = await fetch(API_URL);
         const data = await response.json();
+        console.log(data);
         setWeather(data);
       } catch (error) {
         console.error("Error fetching weather:", error);

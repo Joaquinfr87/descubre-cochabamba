@@ -11,17 +11,30 @@ import { Label } from "@/components/ui/label";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 
+import { submitContact } from "@/app/actions/contact";
+
 export default function ContactPage() {
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
-    // Simulate API call
-    setTimeout(() => {
+
+    const formData = new FormData(e.currentTarget);
+
+    try {
+      const result = await submitContact(formData);
+      if (result.success) {
+        alert("¡Mensaje enviado con éxito!");
+        (e.target as HTMLFormElement).reset();
+      } else {
+        alert("Error: " + result.error);
+      }
+    } catch (error) {
+      alert("Ocurrió un error inesperado.");
+    } finally {
       setIsSubmitting(false);
-      alert("¡Mensaje enviado con éxito!");
-    }, 1500);
+    }
   };
 
   return (
@@ -51,7 +64,7 @@ export default function ContactPage() {
           >
             <div className="space-y-6">
               <h3 className="text-2xl font-semibold">Información de Contacto</h3>
-              
+
               <Card className="border-none shadow-md bg-secondary/10">
                 <CardContent className="flex items-start gap-4 p-6">
                   <MapPin className="h-6 w-6 text-primary shrink-0 mt-1" />
@@ -109,31 +122,32 @@ export default function ContactPage() {
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div className="space-y-2">
                       <Label htmlFor="name">Nombre</Label>
-                      <Input id="name" placeholder="Tu nombre" required />
+                      <Input id="name" name="name" placeholder="Tu nombre" required />
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="lastname">Apellido</Label>
-                      <Input id="lastname" placeholder="Tu apellido" required />
+                      <Input id="lastname" name="lastname" placeholder="Tu apellido" required />
                     </div>
                   </div>
-                  
+
                   <div className="space-y-2">
                     <Label htmlFor="email">Email</Label>
-                    <Input id="email" type="email" placeholder="tucorreo@ejemplo.com" required />
+                    <Input id="email" name="email" type="email" placeholder="tucorreo@ejemplo.com" required />
                   </div>
 
                   <div className="space-y-2">
                     <Label htmlFor="subject">Asunto</Label>
-                    <Input id="subject" placeholder="¿En qué podemos ayudarte?" required />
+                    <Input id="subject" name="subject" placeholder="¿En qué podemos ayudarte?" required />
                   </div>
 
                   <div className="space-y-2">
                     <Label htmlFor="message">Mensaje</Label>
-                    <Textarea 
-                      id="message" 
-                      placeholder="Escribe tu mensaje aquí..." 
-                      className="min-h-[150px]" 
-                      required 
+                    <Textarea
+                      id="message"
+                      name="message"
+                      placeholder="Escribe tu mensaje aquí..."
+                      className="min-h-[150px]"
+                      required
                     />
                   </div>
 

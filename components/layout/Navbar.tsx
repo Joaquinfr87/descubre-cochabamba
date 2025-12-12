@@ -12,6 +12,7 @@ const navLinks = [
   { name: "Inicio", href: "/" },
   { name: "Destinos", href: "/#destinations" },
   { name: "Experiencias", href: "/#experiences" },
+  { name: "Reseñas", href: "/reviews" },
   { name: "Clima", href: "/clima" },
   { name: "Contacto", href: "/contact" },
 ];
@@ -34,9 +35,8 @@ export default function Navbar() {
 
   return (
     <motion.nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300 ${
-        !isTransparent ? "bg-background/95 backdrop-blur-md shadow-sm border-b border-border/10" : "bg-transparent"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300 ${!isTransparent ? "bg-background/95 backdrop-blur-md shadow-sm border-b border-border/10" : "bg-transparent"
+        }`}
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
@@ -56,9 +56,8 @@ export default function Navbar() {
               <Link
                 key={link.name}
                 href={link.href}
-                className={`text-sm font-medium hover:text-primary transition-colors ${
-                  !isTransparent ? "text-foreground/80" : "text-white/90"
-                }`}
+                className={`text-sm font-medium hover:text-primary transition-colors ${!isTransparent ? "text-foreground/80" : "text-white/90"
+                  }`}
               >
                 {link.name}
               </Link>

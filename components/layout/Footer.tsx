@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Facebook, Instagram, Twitter, Mail, MapPin, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -12,9 +13,19 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-1">
             <Link href="/" className="inline-block mb-6">
-              <span className="text-2xl font-bold tracking-tighter text-white">
-                Descubre<span className="text-primary">Cochabamba</span>
-              </span>
+              <div className="flex items-center gap-2">
+                <div className="relative h-8 w-8 overflow-hidden rounded-full">
+                  <Image
+                    src="/logo.png"
+                    alt="Descubre Cochabamba Logo"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <span className="text-2xl font-bold tracking-tighter text-white">
+                  Descubre<span className="text-primary">Cochabamba</span>
+                </span>
+              </div>
             </Link>
             <p className="text-zinc-400 mb-6">
               Tu guía definitiva para explorar la riqueza cultural y natural del corazón de Sudamérica.
@@ -61,9 +72,9 @@ export default function Footer() {
             <h4 className="text-lg font-bold mb-6">Newsletter</h4>
             <p className="text-zinc-400 mb-4">Suscríbete para recibir las mejores ofertas y guías de viaje.</p>
             <div className="flex flex-col gap-3">
-              <Input 
-                type="email" 
-                placeholder="Tu correo electrónico" 
+              <Input
+                type="email"
+                placeholder="Tu correo electrónico"
                 className="bg-white/10 border-white/20 text-white placeholder:text-zinc-500 focus-visible:ring-primary"
               />
               <Button className="w-full">Suscribirse</Button>

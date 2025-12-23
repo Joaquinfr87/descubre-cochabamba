@@ -2,7 +2,6 @@
 
 import prisma from '@/lib/prisma'
 import { revalidatePath } from 'next/cache'
-import { Prisma } from '@prisma/client'
 
 export async function submitReview(formData: FormData) {
     const author = formData.get('author') as string

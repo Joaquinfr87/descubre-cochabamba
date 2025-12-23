@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Cloud, Droplets, Wind, Sun, Loader2 } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 
@@ -97,34 +98,34 @@ export default function WeatherPage() {
             >
               <Card className="mb-12 shadow-xl border-none bg-gradient-to-br from-blue-50 to-white dark:from-slate-900 dark:to-slate-800">
                 <CardContent className="p-8 md:p-12">
-                   <div className="flex flex-col md:flex-row items-center justify-between gap-8">
-                     <div className="flex flex-col items-center md:items-start text-center md:text-left">
-                       <span className="text-lg font-medium text-muted-foreground mb-1">Ahora</span>
-                       <h2 className="text-6xl font-bold text-foreground mb-2">
-                         {Math.round(weather.current.temperature_2m)}°C
-                       </h2>
-                       <p className="text-xl text-primary font-medium">
-                         {getWeatherDescription(weather.current.weather_code)}
-                       </p>
-                     </div>
-                     
-                     <div className="flex items-center justify-center p-6 bg-white dark:bg-black/20 rounded-full shadow-sm">
-                       {getWeatherIcon(weather.current.weather_code)}
-                     </div>
+                  <div className="flex flex-col md:flex-row items-center justify-between gap-8">
+                    <div className="flex flex-col items-center md:items-start text-center md:text-left">
+                      <span className="text-lg font-medium text-muted-foreground mb-1">Ahora</span>
+                      <h2 className="text-6xl font-bold text-foreground mb-2">
+                        {Math.round(weather.current.temperature_2m)}°C
+                      </h2>
+                      <p className="text-xl text-primary font-medium">
+                        {getWeatherDescription(weather.current.weather_code)}
+                      </p>
+                    </div>
 
-                     <div className="grid grid-cols-2 gap-8 text-center">
-                        <div className="flex flex-col items-center gap-2">
-                           <Wind className="h-6 w-6 text-muted-foreground" />
-                           <span className="text-lg font-bold">{weather.current.wind_speed_10m} km/h</span>
-                           <span className="text-xs text-muted-foreground uppercase">Viento</span>
-                        </div>
-                        <div className="flex flex-col items-center gap-2">
-                           <Droplets className="h-6 w-6 text-muted-foreground" />
-                           <span className="text-lg font-bold">{weather.current.relative_humidity_2m}%</span>
-                           <span className="text-xs text-muted-foreground uppercase">Humedad</span>
-                        </div>
-                     </div>
-                   </div>
+                    <div className="flex items-center justify-center p-6 bg-white dark:bg-black/20 rounded-full shadow-sm">
+                      {getWeatherIcon(weather.current.weather_code)}
+                    </div>
+
+                    <div className="grid grid-cols-2 gap-8 text-center">
+                      <div className="flex flex-col items-center gap-2">
+                        <Wind className="h-6 w-6 text-muted-foreground" />
+                        <span className="text-lg font-bold">{weather.current.wind_speed_10m} km/h</span>
+                        <span className="text-xs text-muted-foreground uppercase">Viento</span>
+                      </div>
+                      <div className="flex flex-col items-center gap-2">
+                        <Droplets className="h-6 w-6 text-muted-foreground" />
+                        <span className="text-lg font-bold">{weather.current.relative_humidity_2m}%</span>
+                        <span className="text-xs text-muted-foreground uppercase">Humedad</span>
+                      </div>
+                    </div>
+                  </div>
                 </CardContent>
               </Card>
             </motion.div>
@@ -132,29 +133,40 @@ export default function WeatherPage() {
             {/* Daily Forecast */}
             <h3 className="text-2xl font-bold mb-6">Pronóstico (3 Días)</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-               {weather.daily.time.slice(1, 4).map((date, index) => (
-                 <motion.div
-                   key={date}
-                   initial={{ opacity: 0, y: 20 }}
-                   animate={{ opacity: 1, y: 0 }}
-                   transition={{ duration: 0.5, delay: index * 0.1 }}
-                 >
-                   <Card className="h-full border-none shadow-md hover:shadow-lg transition-shadow">
-                     <CardContent className="p-6 flex flex-col items-center text-center">
-                       <span className="text-muted-foreground mb-4 font-medium">
-                         {new Date(date).toLocaleDateString("es-ES", { weekday: 'long', day: 'numeric' })}
-                       </span>
-                       <div className="mb-4">
-                         {getWeatherIcon(weather.daily.weather_code[index + 1])}
-                       </div>
-                       <div className="flex items-center gap-4 text-lg font-bold">
-                         <span className="text-orange-500">{Math.round(weather.daily.temperature_2m_max[index + 1])}°</span>
-                         <span className="text-blue-500">{Math.round(weather.daily.temperature_2m_min[index + 1])}°</span>
-                       </div>
-                     </CardContent>
-                   </Card>
-                 </motion.div>
-               ))}
+              {weather.daily.time.slice(1, 4).map((date, index) => (
+                <motion.div
+                  key={date}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                >
+                  <Card className="h-full border-none shadow-md hover:shadow-lg transition-shadow">
+                    <CardContent className="p-6 flex flex-col items-center text-center">
+                      <span className="text-muted-foreground mb-4 font-medium">
+                        {new Date(date).toLocaleDateString("es-ES", { weekday: 'long', day: 'numeric' })}
+                      </span>
+                      <div className="mb-4">
+                        {getWeatherIcon(weather.daily.weather_code[index + 1])}
+                      </div>
+                      <div className="flex items-center gap-4 text-lg font-bold">
+                        <span className="text-orange-500">{Math.round(weather.daily.temperature_2m_max[index + 1])}°</span>
+                        <span className="text-blue-500">{Math.round(weather.daily.temperature_2m_min[index + 1])}°</span>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </motion.div>
+              ))}
+            </div>
+
+            <div className="mt-12 text-center border-t pt-8">
+              <p className="text-muted-foreground mb-4">
+                Datos meteorológicos proporcionados por <span className="font-semibold">Open-Meteo API</span>
+              </p>
+              <a href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline">
+                  Visitar Open-Meteo
+                </Button>
+              </a>
             </div>
           </div>
         ) : (

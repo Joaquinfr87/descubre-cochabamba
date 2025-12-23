@@ -60,9 +60,6 @@ export default function Hero() {
           <Button size="lg" className="rounded-full text-lg h-12 px-8 bg-primary hover:bg-primary/90 text-white border-0">
             Explorar Destinos
           </Button>
-          <Button size="lg" variant="outline" className="rounded-full text-lg h-12 px-8 bg-white/10 backdrop-blur-md border-white/40 text-white hover:bg-white/20 hover:text-white">
-            Ver Video <ArrowRight className="ml-2 h-5 w-5" />
-          </Button>
         </motion.div>
       </div>
 

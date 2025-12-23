@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet";
@@ -47,6 +48,14 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
+            <div className="relative h-8 w-8 overflow-hidden rounded-full">
+              <Image
+                src="/logo.png"
+                alt="Descubre Cochabamba Logo"
+                fill
+                className="object-cover"
+              />
+            </div>
             <span className={`text-2xl font-bold tracking-tighter ${!isTransparent ? "text-foreground" : "text-white"}`}>
               Descubre<span className="text-primary">Cochabamba</span>
             </span>

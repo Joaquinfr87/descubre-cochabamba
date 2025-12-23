@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <footer id="footer" className="bg-zinc-950 text-zinc-100 pt-16 pb-8">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
           <div className="md:col-span-1">
             <Link href="/" className="inline-block mb-6">

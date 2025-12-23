@@ -62,7 +62,7 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden xl:flex items-center gap-8">
             {navLinks.map((link) => (
               <Link
                 key={link.name}
@@ -79,26 +79,57 @@ export default function Navbar() {
           </div>
 
           {/* Mobile Navigation */}
-          <div className="md:hidden">
+          <div className="xl:hidden">
             <Sheet>
               <SheetTrigger asChild>
                 <Button variant="ghost" size="icon" className={!isTransparent ? "text-foreground" : "text-white"}>
                   <Menu className="h-6 w-6" />
                 </Button>
               </SheetTrigger>
-              <SheetContent side="right">
-                <SheetTitle className="sr-only">Menú de navegación</SheetTitle>
-                <div className="flex flex-col gap-6 mt-10">
-                  {navLinks.map((link) => (
-                    <Link
-                      key={link.name}
-                      href={link.href}
-                      className="text-lg font-medium hover:text-primary transition-colors"
-                    >
-                      {link.name}
-                    </Link>
-                  ))}
-                  <Button className="w-full rounded-full">Planifica tu viaje</Button>
+              <SheetContent side="right" className="w-[300px] sm:w-[400px] flex flex-col">
+                <div className="flex flex-col h-full">
+                  {/* Header with Logo */}
+                  <div className="flex items-center gap-2 mb-8 mt-2">
+                    <div className="relative h-8 w-8 overflow-hidden rounded-full">
+                      <Image
+                        src="/logo.png"
+                        alt="Descubre Cochabamba Logo"
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                    <span className="text-xl font-bold tracking-tighter">
+                      Descubre<span className="text-primary">Cochabamba</span>
+                    </span>
+                  </div>
+
+                  <SheetTitle className="sr-only">Menú de navegación</SheetTitle>
+
+                  {/* Navigation Links */}
+                  <div className="flex flex-col flex-1 overflow-y-auto pr-2">
+                    {navLinks.map((link) => (
+                      <Link
+                        key={link.name}
+                        href={link.href}
+                        className="text-lg font-medium py-4 px-2 hover:text-primary transition-colors border-b border-border/40 last:border-0 flex justify-between items-center group"
+                      >
+                        {link.name}
+                        <span className="text-muted-foreground/0 group-hover:text-primary transition-all transform translate-x-[-10px] group-hover:translate-x-0">
+                          →
+                        </span>
+                      </Link>
+                    ))}
+                  </div>
+
+                  {/* Footer Action */}
+                  <div className="mt-6 pt-6 border-t border-border">
+                    <Button className="w-full rounded-full text-base font-semibold py-6 shadow-lg hover:shadow-xl transition-all bg-primary hover:bg-primary/90">
+                      Planifica tu viaje
+                    </Button>
+                    <p className="text-center text-xs text-muted-foreground mt-4">
+                      © {new Date().getFullYear()} Descubre Cochabamba
+                    </p>
+                  </div>
                 </div>
               </SheetContent>
             </Sheet>

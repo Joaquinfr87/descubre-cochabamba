@@ -1,0 +1,234 @@
+[
+    {
+        "id": "1",
+        "title": "Silpancho Cochabambino",
+        "description": "Plato emblemático que consiste en arroz, papas, una milanesa de carne plana y grande, huevo frito y ensalada de tomate y cebolla.",
+        "extendedDescription": "El Silpancho es originario de Cochabamba y su nombre proviene del quechua 'silpanch'u', que significa carne delgada y aplastada. Es un plato contundente que representa la generosidad de la gastronomía valluna. Se sirve típicamente con arroz graneado, papas doradas en rodajas, una carne de res apanada que cubre todo el plato, y coronado con uno o dos huevos fritos y una ensalada fresca de tomate, cebolla y locoto llamada 'salljita'.",
+        "category": "Platos Típicos",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Silpancho.jpg",
+        "destinationIds": [],
+        "ingredients": [
+            "Carne de res (pulpa)",
+            "Arroz",
+            "Papas",
+            "Huevo",
+            "Pan molido",
+            "Tomate",
+            "Cebolla",
+            "Locoto"
+        ]
+    },
+    {
+        "id": "2",
+        "title": "Pique Macho",
+        "description": "Una montaña de sabor: trozos de carne de res, salchicha, papas fritas, huevo duro, cebolla, tomate y locoto. ¡Para compartir!",
+        "extendedDescription": "Creado en el restaurante 'El Prado' o 'Miraflores' según la leyenda, el Pique Macho fue diseñado para aquellos que podían soportar el picante, de ahí su nombre 'Macho'. Es un plato festivo, ideal para compartir entre amigos y familia. La combinación de jugosos trozos de lomo, salchichas vienesas, papas fritas crujientes y una salsa picante de locoto lo hacen irresistible.",
+        "category": "Platos Típicos",
+        "imageUrl": "https://i0.wp.com/elcalderoviajero.com/wp-content/uploads/2018/12/pique-a-lo-macho-12.jpg?w=750&ssl=1",
+        "destinationIds": [],
+        "ingredients": [
+            "Lomo de res",
+            "Salchichas",
+            "Papas fritas",
+            "Huevo duro",
+            "Tomate",
+            "Cebolla",
+            "Locoto",
+            "Cerveza (para el jugo)"
+        ]
+    },
+    {
+        "id": "3",
+        "title": "Chicharrón de Cerdo",
+        "description": "Carne de cerdo cocida en su propia manteca, acompañada de mote de maíz y llajua. Tradicional de los fines de semana.",
+        "extendedDescription": "El Chicharrón cochabambino es una institución de los domingos. Se cocina lentamente en peroles de cobre gigantes usando fuego de leña, lo que le da un sabor ahumado característico. La carne se cuece primero en agua y chicha hasta que se evapora el líquido y comienza a freírse en su propia grasa. Se acompaña indispensablemente de mote de maíz blanco, papa y una buena llajua.",
+        "category": "Platos Típicos",
+        "imageUrl": "https://kaseritago.com/wp-content/uploads/2025/06/2bd46b98-84e8-4f31-93bb-aa43452b6726.webp",
+        "destinationIds": [],
+        "ingredients": [
+            "Carne de cerdo (costilla, pulpa)",
+            "Tocino",
+            "Mote de maíz",
+            "Papas",
+            "Chicha",
+            "Sal",
+            "Limón"
+        ]
+    },
+    {
+        "id": "7",
+        "title": "Sopa de Maní",
+        "description": "Cremosa sopa a base de maní molido, con carne de res o pollo, papas fritas al hilo y perejil.",
+        "extendedDescription": "La Sopa de Maní es uno de los platos más queridos de Bolivia. Su textura cremosa se logra moliendo maní crudo y cocinándolo pacientemente. Puede llevar trozos de carne de res (costilla es popular) o pollo. El toque final lo dan las papas fritas crocantes por encima y el perejil fresco. Es el almuerzo por excelencia en muchos hogares cochabambinos.",
+        "category": "Platos Típicos",
+        "imageUrl": "https://thebolivianfoodie.com/wp-content/uploads/2025/06/Sopa-de-mani-bolivia-peanut-soup-gastronomia-the-bolivian-foodie-alvaro-ruiz-fotografia-1024x819.jpg",
+        "destinationIds": [],
+        "ingredients": [
+            "Maní crudo pelado",
+            "Carne de res o pollo",
+            "Papas",
+            "Fideos (macarrón)",
+            "Zanahoria",
+            "Arvejas",
+            "Perejil"
+        ]
+    },
+    {
+        "id": "8",
+        "title": "Pampaku",
+        "description": "Carne de pollo, res, cordero y cerdo cocida bajo tierra con piedras calientes. Un sabor ahumado inigualable.",
+        "extendedDescription": "El Pampaku (del quechua 'pampa' = tierra) es una técnica de cocción ancestral. Se cava un hoyo en la tierra que se calienta con leña y piedras volcánicas. Las carnes marinadas y los acompañamientos (papas, camote, plátano) se entierran y se cocinan al calor de las piedras durante horas, sellados herméticamente. El resultado es una carne que se deshace y un sabor terroso único.",
+        "category": "Platos Típicos",
+        "imageUrl": "https://gastronomiabolivia.com/wp-content/uploads/pampaku-boliviano.jpg",
+        "destinationIds": [],
+        "ingredients": [
+            "Pollo",
+            "Carne de res",
+            "Cordero",
+            "Cerdo",
+            "Papas",
+            "Camote",
+            "Plátano de freír",
+            "Habas"
+        ]
+    },
+    {
+        "id": "9",
+        "title": "Lapping",
+        "description": "Pecho de vaca asado a la parrilla o al horno, marinado en jugo de limón y papaya para suavizarlo.",
+        "extendedDescription": "El Lapping es un corte de carne específico (la falda o pecho) que se caracteriza por ser fibroso pero muy sabroso. El secreto cochabambino es marinarlo con papaya verde rallada o jugo de limón por horas para ablandar las fibras. Se sirve acompañado de mote de habas, quesillo fresco, choclo y soltero (ensalada de tomate y cebolla).",
+        "category": "Platos Típicos",
+        "imageUrl": "https://recetasbolivia.com/wp-content/uploads/la-casa-del-lapping-boliviano.webp",
+        "destinationIds": [],
+        "ingredients": [
+            "Pecho de vaca (Lapping)",
+            "Limón",
+            "Papaya (para marinar)",
+            "Habas",
+            "Choclo",
+            "Quesillo",
+            "Tomate",
+            "Cebolla"
+        ]
+    },
+    {
+        "id": "4",
+        "title": "Restaurante Tunari",
+        "description": "Famoso por sus platos tradicionales y ambiente familiar. Un clásico para probar el verdadero sabor cochabambino.",
+        "extendedDescription": "Con más de 30 años de tradición, el Restaurante Tunari es un referente de la comida criolla. Su especialidad es el Pique Macho y el Lapping. El ambiente es amplio, ideal para grandes familias, y a menudo cuentan con grupos musicales en vivo los fines de semana.",
+        "category": "Restaurantes Recomendados",
+        "location": "Av. Ballivián #789, El Prado",
+        "imageUrl": "https://scontent.fcbb1-2.fna.fbcdn.net/v/t39.30808-6/481060382_1103623375111895_2393978594151587278_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=T1Ftv09AluAQ7kNvwHHgubc&_nc_oc=AdkAlL9JxVDcxk8P2f8NBQO9oyw5IK_eEGfqWVio9iJqaiaHNthnPhYj7790TjW2HIwkIr-JTVHNqNeYUlE8jKal&_nc_zt=23&_nc_ht=scontent.fcbb1-2.fna&_nc_gid=ft1M-_VuDbs4AJxGQCIYuw&oh=00_Afn5Ae2fJRK6o0M3F_L28kqhFMjGbvxtkXW2gUmtFPqDmA&oe=694FB88B",
+        "destinationIds": []
+    },
+    {
+        "id": "5",
+        "title": "Quinta Cherenta",
+        "description": "Especialistas en chicharrón y platos al horno. Disfruta de la comida al aire libre bajo la sombra de los árboles.",
+        "extendedDescription": "Ubicada en las afueras de la ciudad, Quinta Cherenta ofrece la experiencia campestre completa. Mesas rústicas bajo molles centenarios, juegos para niños y un horno de barro del que salen lechones dorados y pato. Es el lugar perfecto para pasar un domingo relajado.",
+        "category": "Restaurantes Recomendados",
+        "location": "Km 4 a Sacaba, Zona Quintanilla",
+        "imageUrl": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "destinationIds": []
+    },
+    {
+        "id": "10",
+        "title": "Casa de Campo",
+        "description": "Un rincón de antaño en plena ciudad. El mejor Silpancho según muchos locales.",
+        "extendedDescription": "Casa de Campo mantiene la estética de una casona colonial. Sus paredes están adornadas con fotos antiguas de Cochabamba. Su plato estrella es el Silpancho, que sirven con huevos de yema líquida perfecta y un arroz graneado inigualable.",
+        "category": "Restaurantes Recomendados",
+        "location": "Pasaje Boulevard de la Recoleta",
+        "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/5a/69/71/casa-de-campo.jpg?w=900&h=500&s=1",
+        "destinationIds": []
+    },
+    {
+        "id": "11",
+        "title": "Doña Fely",
+        "description": "El templo del Chicharrón en Sacaba. Parada obligatoria si visitas el valle.",
+        "extendedDescription": "En Doña Fely, el chicharrón se sirve por kilos. La atención es rápida y el sabor constante. Sus peroles gigantes en la entrada son un espectáculo aparte. Acompaña tu plato con una garapiña bien fría.",
+        "category": "Restaurantes Recomendados",
+        "location": "Plaza Principal de Sacaba",
+        "imageUrl": "https://scontent.fcbb1-2.fna.fbcdn.net/v/t39.30808-6/305578697_508053647987772_2603240227308880166_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=4s2iBZ4OQiMQ7kNvwEGulzJ&_nc_oc=Adl8gPSqXVlIH7J_Y2gJPheGDJAPfID3-TgVwYwyelEoQ8teY2hVUlHDEpOzVpq3s83Q7LtMGIvgRmQUNY9MArDB&_nc_zt=23&_nc_ht=scontent.fcbb1-2.fna&_nc_gid=qFTjVRngvmw5_Mljuj1PRA&oh=00_Afkr-ehNc9nJoxRRVAYoTzWeFh10XNBAzGx0z_4agxpfXw&oe=694FA43F",
+        "destinationIds": []
+    },
+    {
+        "id": "12",
+        "title": "Las Islas",
+        "description": "Ambiente tropical y los mejores mariscos y pescados de la ciudad, con un toque local.",
+        "extendedDescription": "Aunque Cochabamba no tiene mar, Las Islas trae el sabor del océano. También ofrecen pescados de río como surubí y pacú en preparaciones creativas. El ambiente es relajado, con cabañas de paja y mucha vegetación.",
+        "category": "Restaurantes Recomendados",
+        "location": "Av. América Oeste",
+        "imageUrl": "https://scontent.fcbb1-1.fna.fbcdn.net/v/t39.30808-6/571237814_1361375155998253_334523726997371967_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=MDwV4C5LWDMQ7kNvwFgll3p&_nc_oc=AdmIiqKldKy7mbePkz3hCmDjZmOL3DYxxbluXX276zjIMUNsMXIs4BHWUkCBuJB7aicJPhcVwFUK_GDTjDp20rFj&_nc_zt=23&_nc_ht=scontent.fcbb1-1.fna&_nc_gid=qLp4-IH7ZzcT_9ihbTmcgA&oh=00_AfkA9wktF9NG8VSVVfzLgRtqL-lKvuvLqA2VD9wPU37T0A&oe=694FBE7F",
+        "destinationIds": []
+    },
+    {
+        "id": "13",
+        "title": "Sucremanta",
+        "description": "Sabores chuquisaqueños y cochabambinos fusionados. Famoso por su mondongo y chorizos.",
+        "extendedDescription": "Un pedazo de Sucre en Cochabamba, adoptado por los locales. Su terraza es muy agradable por las noches. El mondongo chuquisaqueño es su especialidad, pero han sabido incorporar el gusto valluno en sus picantes.",
+        "category": "Restaurantes Recomendados",
+        "location": "Zona Cala Cala",
+        "imageUrl": "https://images.unsplash.com/photo-1552566626-52f8b828add9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "destinationIds": []
+    },
+    {
+        "id": "6",
+        "title": "Cómo hacer Llajua Boliviana",
+        "description": "Aprende a preparar la salsa picante infaltable en la mesa boliviana. Tomate, locoto y quirquiña son los secretos.",
+        "extendedDescription": "La llajua no es solo una salsa, es el alma de la mesa boliviana. En este video aprenderás la técnica del batanado (usando batán de piedra) que le da una textura y sabor que la licuadora no puede igualar. Descubrirás la proporción exacta de locoto y tomate para el picante perfecto.",
+        "category": "Recetas / Videos",
+        "videoUrl": "https://youtu.be/CpWY_K5uQKg?si=OVQT3dfesAsABc7p",
+        "imageUrl": "https://cdn.bolivia.com/sdi/2022/09/22/llajua-salsa-picante-boliviana-1068723.jpg",
+        "destinationIds": []
+    },
+    {
+        "id": "14",
+        "title": "Receta de Pique Macho",
+        "description": "El paso a paso para lograr un Pique Macho jugoso y con la sazón perfecta.",
+        "extendedDescription": "Sigue esta receta detallada para sorprender a tus invitados. Aprenderás a escoger la carne correcta, el punto de cocción de las salchichas y, lo más importante, cómo preparar el jugo picante que baña todo el plato sin dejarlo aguoso.",
+        "category": "Recetas / Videos",
+        "videoUrl": "https://youtu.be/yzVzHDnqKvc",
+        "imageUrl": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "destinationIds": []
+    },
+    {
+        "id": "15",
+        "title": "Secretos del Silpancho",
+        "description": "Técnica para apanar la carne y lograr ese diámetro gigante sin que se rompa.",
+        "extendedDescription": "Hacer que la carne del Silpancho quede delgada y grande es un arte. Este video te muestra la técnica del 'golpeado' sobre pan molido, cómo manejar el cuchillo para extender la carne y el control de la temperatura del aceite para que no se encoja al freír.",
+        "category": "Recetas / Videos",
+        "videoUrl": "https://youtu.be/-lgGlNDeQ6g?si=SQmdEcxbDfvzr7eN",
+        "imageUrl": "https://images.unsplash.com/photo-1432139555190-58524dae6a55?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "destinationIds": []
+    },
+    {
+        "id": "16",
+        "title": "Sopa de Maní Tradicional",
+        "description": "Cómo pelar y moler el maní para obtener una sopa blanca y cremosa.",
+        "extendedDescription": "La paciencia es clave para la Sopa de Maní. Aquí verás el proceso desde el remojo del maní hasta la cocción lenta que evita que se corte. Además, tips para que las papas fritas se mantengan crocantes al servir.",
+        "category": "Recetas / Videos",
+        "videoUrl": "https://youtu.be/asLAk_bdXkM?si=EygRBHLNR5zJGRxJ",
+        "imageUrl": "https://i0.wp.com/elcalderoviajero.com/wp-content/uploads/2017/12/sopa-de-mani-bolivia-vegana-03.jpg?resize=750%2C563&ssl=1",
+        "destinationIds": []
+    },
+    {
+        "id": "17",
+        "title": "Chicharrón de chancho a la leña",
+        "description": "Documental corto sobre la tradición del chicharrón en el Valle Alto.",
+        "extendedDescription": "Un recorrido visual por las chicharronerías tradicionales. Conoce a las maestras cocineras que llevan décadas preparando este plato y descubre por qué la paila de cobre y el fuego de leña son insustituibles para el sabor auténtico.",
+        "category": "Recetas / Videos",
+        "videoUrl": "https://youtu.be/4A3XW2JYl50?si=QSVMJ_Y7CwMhqsMQ",
+        "imageUrl": "https://images.unsplash.com/photo-1596797038530-2c107229654b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "destinationIds": []
+    },
+    {
+        "id": "18",
+        "title": "Bebidas Típicas: Garapiña y Chicha",
+        "description": "Conoce la elaboración del néctar del valle y su variante refrescante con helado de canela.",
+        "extendedDescription": "Aprende sobre la fermentación del maíz para hacer Chicha y cómo esta se transforma en Garapiña al mezclarla con helado de canela y colorante natural de airampo. Una bebida dulce, refrescante y con historia.",
+        "category": "Recetas / Videos",
+        "videoUrl": "https://youtu.be/iTdmx5FGDc8?si=-R3BQ2TXeslOlmkc",
+        "imageUrl": "https://www.cocina-boliviana.com/base/stock/Recipe/garapina-boliviana/garapina-boliviana_web.jpg",
+        "destinationIds": []
+    }
+]

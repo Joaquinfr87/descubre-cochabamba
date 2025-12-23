@@ -32,8 +32,9 @@ export default function Footer() {
             <ul className="space-y-4 text-zinc-400">
               <li><Link href="#destinations" className="hover:text-white transition-colors">Destinos</Link></li>
               <li><Link href="#experiences" className="hover:text-white transition-colors">Experiencias</Link></li>
-              <li><Link href="#" className="hover:text-white transition-colors">Eventos</Link></li>
-              <li><Link href="#" className="hover:text-white transition-colors">Blog</Link></li>
+              <li><Link href="#culture" className="hover:text-white transition-colors">Eventos</Link></li>
+              <li><Link href="#gastronomy" className="hover:text-white transition-colors">Gastronomía</Link></li>
+              <li><Link href="#blog" className="hover:text-white transition-colors">Blog</Link></li>
             </ul>
           </div>
 
@@ -61,9 +62,9 @@ export default function Footer() {
             <h4 className="text-lg font-bold mb-6">Newsletter</h4>
             <p className="text-zinc-400 mb-4">Suscríbete para recibir las mejores ofertas y guías de viaje.</p>
             <div className="flex flex-col gap-3">
-              <Input 
-                type="email" 
-                placeholder="Tu correo electrónico" 
+              <Input
+                type="email"
+                placeholder="Tu correo electrónico"
                 className="bg-white/10 border-white/20 text-white placeholder:text-zinc-500 focus-visible:ring-primary"
               />
               <Button className="w-full">Suscribirse</Button>

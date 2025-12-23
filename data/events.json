@@ -1,0 +1,141 @@
+[
+    {
+        "id": "1",
+        "title": "Festividad de la Virgen de Urkupiña",
+        "description": "La fiesta religiosa más grande de Cochabamba. Miles de bailarines, bandas y peregrinos se reúnen en Quillacollo cada agosto.",
+        "extendedDescription": "La Festividad de la Virgen de Urkupiña es una de las expresiones culturales y religiosas más importantes de Bolivia. Se celebra en honor a la Asunción de la Virgen María. La fiesta incluye la Entrada Folclórica, donde miles de danzarines muestran la riqueza del folklore boliviano, la Misa Solemne y el Calvario, donde los fieles extraen piedras de un cerro como símbolo de 'préstamo' de bienes materiales que la Virgen les concederá.",
+        "category": "Festivales",
+        "date": "14-16 de Agosto",
+        "location": "Quillacollo, a 13km de la ciudad",
+        "imageUrl": "https://cba.ucb.edu.bo/blog/wp-content/uploads/2022/09/virgen-de-urcupina.jpg",
+        "destinationIds": []
+    },
+    {
+        "id": "2",
+        "title": "Feria Internacional de Cochabamba (FEICOBOL)",
+        "description": "El evento empresarial más importante de la región. Exposiciones, gastronomía, música y negocios en el recinto ferial de la Laguna Alalay.",
+        "extendedDescription": "FEICOBOL es la vitrina comercial de Cochabamba para el mundo. Durante 10 días, el recinto ferial de Alalay se llena de stands de empresas nacionales e internacionales. Además de los negocios, la feria es famosa por su plaza de comidas, conciertos nocturnos y actividades recreativas para toda la familia.",
+        "category": "Ferias",
+        "date": "Abril / Mayo",
+        "location": "Recinto Ferial Alalay",
+        "imageUrl": "https://i0.wp.com/negociospress.com.bo/wp-content/uploads/2021/08/Feicobol.1.jpg?fit=2000%2C1343&ssl=1",
+        "destinationIds": [
+            "6"
+        ]
+    },
+    {
+        "id": "3",
+        "title": "Corso de Corsos",
+        "description": "El cierre del carnaval boliviano. Un desfile lleno de alegría, disfraces creativos y danzas tradicionales que recorre la ciudad.",
+        "extendedDescription": "Conocido como el 'Carnaval de la Concordia', el Corso de Corsos cierra las celebraciones de carnaval en Bolivia. Se caracteriza por la participación de comparsas militares con disfraces ingeniosos y carros alegóricos, seguidos por grupos folclóricos de todo el país. Es una fiesta de color, espuma y alegría desbordante.",
+        "category": "Festivales",
+        "date": "Febrero / Marzo (Sábado de Tentación)",
+        "location": "Av. Heroínas y El Prado",
+        "imageUrl": "https://eju.tv/wp-content/uploads/2022/03/img_6224a69997fb0.jpg",
+        "destinationIds": []
+    },
+    {
+        "id": "4",
+        "title": "Wallunk'a",
+        "description": "Una tradición de Todos Santos donde las jóvenes se mecen en columpios gigantes mientras se cantan coplas picantes.",
+        "extendedDescription": "La Wallunk'a es una tradición valluna ligada a la fiesta de Todos Santos y el inicio de la época de lluvias. Se instalan columpios gigantes decorados con flores. Las cholitas se mecen alto para alcanzar canastas con premios, mientras grupos musicales interpretan coplas picarescas en quechua y español. Es una celebración de la fertilidad y la vida.",
+        "category": "Tradiciones",
+        "date": "Noviembre (Todos Santos)",
+        "location": "Valles de Cochabamba",
+        "imageUrl": "https://www.opinion.com.bo/media/opinion/images/2011/11/26/2011N33281.jpg",
+        "destinationIds": []
+    },
+    {
+        "id": "5",
+        "title": "Ñawpa Manka Mikhuna",
+        "description": "La 'Comida de los Abuelos'. Una feria gastronómica que rescata platos ancestrales y recetas olvidadas de los valles.",
+        "extendedDescription": "Ñawpa Manka Mikhuna significa 'Comida de los Antiguos' en quechua. Esta feria busca preservar el patrimonio alimentario de Cochabamba. Aquí se encuentran platos que ya no son comunes en los restaurantes modernos, como el phiri, la kispiña, lawas de granos nativos y bebidas fermentadas ancestrales. Es un viaje al pasado a través del paladar.",
+        "category": "Ferias",
+        "date": "Septiembre",
+        "location": "Plaza de las Banderas / Achocalla",
+        "imageUrl": "https://calendariosaboresbolivia.com/wp-content/uploads/2013/08/ac778-c391awpamankamikhunarecibic3b35milvisitantes.jpg",
+        "destinationIds": []
+    },
+    {
+        "id": "6",
+        "title": "Feria del Durazno",
+        "description": "San Benito, capital del durazno, celebra su cosecha con una feria donde se exponen las mejores variedades de esta fruta.",
+        "extendedDescription": "En el Valle Alto, San Benito es famoso por producir los mejores duraznos de Bolivia. En esta feria se puede degustar y comprar variedades como el Gumucio Reyes y el Blanquillo. Además de fruta fresca, se ofrecen derivados como mermeladas, refrescos y el tradicional mocochinchi.",
+        "category": "Ferias",
+        "date": "Febrero / Marzo",
+        "location": "San Benito, Valle Alto",
+        "imageUrl": "https://odccba.wordpress.com/wp-content/uploads/2012/02/durazno.jpg",
+        "destinationIds": []
+    },
+    {
+        "id": "7",
+        "title": "Santa Vera Cruz Tatala",
+        "description": "Fiesta de la fertilidad agrícola y humana. Se celebra con coplas y ofrendas para pedir buenas cosechas y fecundidad.",
+        "extendedDescription": "Una de las celebraciones más sincreticas y profundas. Se realiza en la zona sur de la ciudad. Parejas que desean tener hijos y agricultores que piden lluvia y buenas cosechas se reúnen para cantar coplas al ritmo de acordeones y charangos. Se queman muñecos de bosta simbolizando la fertilidad.",
+        "category": "Tradiciones",
+        "date": "3 de Mayo",
+        "location": "Valle Hermoso, Zona Sur",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Santa_Vera_Cruz%2C_Cochabamba.jpg",
+        "destinationIds": []
+    },
+    {
+        "id": "8",
+        "title": "Festival de Piano de Totora",
+        "description": "El pueblo colonial de Totora se llena de música clásica y talento joven en este festival nacional de piano.",
+        "extendedDescription": "Totora, con su arquitectura colonial preservada, es el escenario de este evento cultural único. Pianos de cola se instalan en casonas antiguas y salones, y estudiantes de todo el país viajan para competir y compartir su arte. El contraste entre la música académica y el entorno rural andino es mágico.",
+        "category": "Festivales",
+        "date": "Octubre",
+        "location": "Totora, Provincia Carrasco",
+        "imageUrl": "https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "destinationIds": []
+    },
+    {
+        "id": "9",
+        "title": "Martes de Ch'alla",
+        "description": "Ritual de agradecimiento a la Pachamama (Madre Tierra) realizado el martes de carnaval en casas y negocios.",
+        "extendedDescription": "El Martes de Ch'alla es un día sagrado de reciprocidad. Se adornan casas, autos y negocios con serpentinas y globos. Se prepara una 'mesa' ritual con dulces, alcohol, coca y otros elementos que se quema como ofrenda a la Pachamama pidiendo prosperidad y protección para el año que inicia.",
+        "category": "Tradiciones",
+        "date": "Martes de Carnaval",
+        "location": "Toda la ciudad y el país",
+        "imageUrl": "https://cdn.bolivia.com/sdi/2018/02/13/martes-de-challa-asi-fue-el-agradecimiento-a-la-pachamama-609342.jpg",
+        "destinationIds": []
+    },
+    {
+        "id": "10",
+        "title": "Feria del Pescado",
+        "description": "En la Angostura y Villa Tunari, ferias dedicadas a la variedad de pescados de la región.",
+        "extendedDescription": "Cochabamba disfruta de pescado fresco de sus lagunas y ríos tropicales. Estas ferias son festivales gastronómicos donde se sirve pejerrey, carpa, sábalo, surubí y pacú en todas sus formas: frito, a la parrilla, en sudado. Música en vivo y paseos en bote suelen acompañar la comida.",
+        "category": "Ferias",
+        "date": "Varios fines de semana",
+        "location": "La Angostura / Villa Tunari",
+        "imageUrl": "https://www.opinion.com.bo/media/opinion/images/2021/09/25/2021092511243942986.jpg",
+        "destinationIds": [
+            "6",
+            "4"
+        ]
+    },
+    {
+        "id": "11",
+        "title": "Nonato Party (Fiesta de la Alasita)",
+        "description": "Feria de miniaturas donde se compran objetos pequeños representando deseos para el año.",
+        "extendedDescription": "Similar a la Alasita de La Paz, en Cochabamba se celebra con la compra de miniaturas: casitas, autitos, dinero falso, títulos profesionales. La creencia es que si compras la miniatura con fe y la haces bendecir (o ch'allar), el deseo se hará realidad en tamaño real durante el año.",
+        "category": "Tradiciones",
+        "date": "24 de Enero / Octubre (Cristo de la Concordia)",
+        "location": "Av. Suecia / El Cristo",
+        "imageUrl": "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "destinationIds": [
+            "1"
+        ]
+    },
+    {
+        "id": "12",
+        "title": "Festival de Takipayanakus",
+        "description": "Concurso de coplas de carnaval donde comparsas se enfrentan con versos ingeniosos en quechua.",
+        "extendedDescription": "El Takipayanaku es un duelo verbal cantado. Hombres y mujeres se enfrentan en contrapunto, improvisando versos satíricos, románticos o picantes, generalmente en quechua. Es una muestra de la agilidad mental y la riqueza lingüística de la cultura valluna.",
+        "category": "Festivales",
+        "date": "Carnaval",
+        "location": "Estadio Félix Capriles",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/La_cantante_principal_de_esta_comparsa_y_el_guitarrista.jpg",
+        "destinationIds": []
+    }
+]
